@@ -100,10 +100,10 @@
         Base {
             display-name = "Base";
             bindings = <
-            &kp Q  &kp W  &kp E &kp R &kp T &kp Y &kp U   &kp I &kp O &kp P
-            &kp A  &kp S  &kp D &kp F &kp G &kp H &kp J   &kp K &kp L &comma_semi
-&kp LSHIFT  &kp Z  &kp X  &kp C &kp V &kp B &kp N &kp M   &dot_colon &comma_semi &kp SLASH &kp RSHIFT
-            &lt SpaceNav ESCAPE  &lt Nav SPACE  &lt MouseNav TAB &lt Sym ENTER  &lt Num BSPC  &lt Func DELETE
+            &kp Q  &kp W  &kp E &kp R &kp T                                     &kp Y &kp U &kp I &kp O &kp P
+            &kp A  &kp S  &kp D &kp F &kp G                                     &kp H &kp J &kp K &kp L &comma_semi
+&kp LSHIFT  &kp Z  &kp X  &kp C &kp V &kp B                                     &kp N &kp M &dot_colon &comma_semi &kp SLASH &kp RSHIFT
+            &lt SpaceNav ESCAPE  &lt Nav TAB  &lt MouseNav SPACE                &lt Sym ENTER  &lt Num BSPC  &lt Func DELETE
             >;
         };
 
@@ -111,6 +111,7 @@
             display-name = "Nav";
             bindings = <
        &trans  &trans  &trans  &trans  &trans    &none     &kp PAGE_DOWN  &kp UP    &kp PG_UP  &none
+//     a       s       d       f       g         h         j              k         l          ;
        &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp LEFT       &kp DOWN  &kp RIGHT  &kp END
 &none  &trans  &trans  &trans  &trans  &trans    &none     &none          &none     &none      &none    &none
                        &trans  &trans  &trans    &trans    &trans         &trans
