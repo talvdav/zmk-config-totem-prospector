@@ -102,7 +102,7 @@
             bindings = <
             &kp Q  &kp W  &kp E &kp R &kp T &kp Y &kp U   &kp I &kp O &kp P
             &kp A  &kp S  &kp D &kp F &kp G &kp H &kp J   &kp K &kp L &comma_semi
-&kp LSHIFT  &kp Z  &kp X  &kp C &kp V &kp B &kp N &kp M   &dot_colon &comma_semi &kp SLASH &RSHIFT
+&kp LSHIFT  &kp Z  &kp X  &kp C &kp V &kp B &kp N &kp M   &dot_colon &comma_semi &kp SLASH &kp RSHIFT
             &lt SpaceNav ESCAPE  &lt Nav SPACE  &lt MouseNav TAB &lt Sym ENTER  &lt Num BSPC  &lt Func DELETE
             >;
         };
